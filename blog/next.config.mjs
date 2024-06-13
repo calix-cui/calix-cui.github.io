@@ -15,7 +15,8 @@ if (isGithubActions) {
 const nextConfig = {
   basePath,
   // assetPrefix,
-  output: 'export'
+  output: 'export',
+  distDir: '../out'
 };
 
 export default nextConfig;
